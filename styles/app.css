@@ -33,10 +33,10 @@ li {
 
 #clock {
   position: absolute;
-  top: -25px;
-  left: -40px;
+  top: -28px;
+  left: -55px;
   color: #a40606;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 a {
