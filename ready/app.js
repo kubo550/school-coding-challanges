@@ -7,7 +7,7 @@ function getTimeRemaining(endtime) {
   const total = Date.parse(endtime) - Date.parse(new Date());
   const seconds = Math.floor((total / 1000) % 60);
   const minutes = Math.floor((total / 1000 / 60) % 60);
-  clockDiv.innerHTML = `Pozostało ${minutes < 10 ? "0" + minutes : minutes}:${
+  clockDiv.innerHTML = `Time Left ${minutes < 10 ? "0" + minutes : minutes}:${
     seconds < 10 ? "0" + seconds : seconds
   }`;
 }
