@@ -31,6 +31,14 @@ li {
   border-radius: 30px;
 }
 
+#clock {
+  position: absolute;
+  top: -25px;
+  left: -40px;
+  color: #a40606;
+  font-size: 1.3rem;
+}
+
 a {
   color: #ffffff;
   opacity: 0.6;
