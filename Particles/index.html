@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,500;1,400;1,500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="./styles/app.css">
+    
     <title>Simple Particles P5.js </title>
     
     <script defer src="clock.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
 
+    <script defer src="./ready/sektch.js"></script>
 </head>
 <body>
     <div class="container">
@@ -35,8 +38,8 @@
                 <canvas width="470" height="500" id="canvas"></canvas>
             </div>
 
-            <div class="col-md-6 text-center" style="position: relative;">
-                <canvas width="470" height="500" id="_canvas"></canvas>
+            <div id="_canvasPlace" class="col-md-6 text-center" style="position: relative;">
+                
                 <div id="clock">Time Left 00:00</div>
                 <!-- <div class="absolute">
                     <h3>Todo List</h3>
