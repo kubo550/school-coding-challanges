@@ -7,12 +7,12 @@ function getTimeRemaining(endtime) {
   const total = Date.parse(endtime) - Date.parse(new Date());
   const seconds = Math.floor((total / 1000) % 60);
   const minutes = Math.floor((total / 1000 / 60) % 60);
-  clockDiv.innerHTML = `Time Left ${minutes < 10 ? "0" + minutes : minutes}:${
+  _clockDiv.innerHTML = `Time Left ${minutes < 10 ? "0" + minutes : minutes}:${
     seconds < 10 ? "0" + seconds : seconds
   }`;
 }
 
-setInterval(() => getTimeRemaining(deadline), 1000);
+setInterval(() => _getTimeRemaining(_deadline), 1000);
 
 // ? Definiowanie Zmiennych Globalnych
 const _canvas = document.querySelector("#_canvas");
