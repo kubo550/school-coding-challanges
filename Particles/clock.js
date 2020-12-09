@@ -1,6 +1,6 @@
 const _clockDiv = document.querySelector("#clock");
 const _deadline =
-  "Wed Dec 09 2020 15:00:00 GMT+0100 (czas środkowoeuropejski standardowy)";
+  "Wed Dec 09 2020 13:25:00 GMT+0100 (czas środkowoeuropejski standardowy)";
 
 const _getTimeRemaining = endtime => {
   const total = Date.parse(endtime) - Date.parse(new Date());
