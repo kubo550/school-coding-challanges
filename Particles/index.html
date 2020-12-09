@@ -35,8 +35,8 @@
         <div class="row">
             
             <!-- ^      Nasz    Canvas        -->
-            <div class="col-md-6 text-center">
-                <canvas width="470" height="500" id="canvas"></canvas>
+            <div class="col-md-6 text-center" id="parentDiv">
+                
             </div>
 
             <div id="_canvasPlace" class="col-md-6 text-center" style="position: relative;">
@@ -45,11 +45,10 @@
                 <div class="absolute">
                     <h3>Todo List</h3>
                     <ol class="text-left">
-                        <li>Stworzenie klasy Particle <input type="checkbox"></li>
-                        <li>Animacja ruchu <input type="checkbox"></li>
-                        <li>Dodanie odbicia od krawędzi bocznych <input type="checkbox"></li>
-                        <li>Implementacja metody rysującej linie <input type="checkbox"></li>
-                        
+                        <li>Stworzenie klasy Particle <input type="checkbox" checked></li>
+                        <li>Animacja ruchu <input type="checkbox" checked></li>
+                        <li>Dodanie odbicia od krawędzi bocznych <input type="checkbox" checked></li>
+                        <li>Implementacja metody rysującej linie <input type="checkbox" checked></li>
                     </ol>
                 </div>
             </div>
@@ -66,7 +65,8 @@
         </div>
     </div>
 
-
+    <script src="Particle.js"></script>
+    <script src="sketch.js"></script>
  
 </body>
 </html>
